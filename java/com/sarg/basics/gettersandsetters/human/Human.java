@@ -1,10 +1,11 @@
+package gettersandsetters.human;
 //getters and setters
 /***Main class *****/
-class human_data
+class HumanData
 {
 	public static void main (String args[])
 	{
-		human rose = new human ()	;
+		Human rose = new Human()	;
 		rose.setAge(23);
 		rose.setName("rose");
 		rose.setOccupation("doctor");
@@ -14,7 +15,7 @@ class human_data
 }
 
 
-public class human
+public class Human
 {
 
 	String name;

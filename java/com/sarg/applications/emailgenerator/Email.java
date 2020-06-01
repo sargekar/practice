@@ -1,4 +1,4 @@
-package email_app;
+package com.sarg.applications.emailgenerator;
 import java.util.Scanner;
 
 public class Email

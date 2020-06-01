@@ -1,4 +1,3 @@
-// threads
 
 class Load extends Thread
 {
@@ -8,21 +7,21 @@ class Load extends Thread
 	}
 }
 
-class Load_2 implements Runnable
+class Load2 implements Runnable
 {
 	public void run()
 	{
 		System.out.println("This is the second thread");
 	}
 }
-public class myThread
+public class ThreadBasics
 {
 	public static void main(String args[])
 	{
 		Load thread1 = new Load();
 		thread1.start();
 		
-		Thread thread2 = new Thread(new Load_2());
+		Thread thread2 = new Thread(new Load2());
 		thread2.start();
 	}
 }

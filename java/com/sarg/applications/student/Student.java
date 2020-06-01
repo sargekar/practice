@@ -1,4 +1,3 @@
-package studentDbApp;
 import java.util.*;
 
 public class Student 

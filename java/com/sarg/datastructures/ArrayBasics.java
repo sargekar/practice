@@ -1,5 +1,9 @@
-
-public class array_basics {
+/** Program illustrating difference arrayconcepts.
+ * 
+ * @author Swetha Argekar
+ *
+ */
+public class ArrayBasics {
 
 	public static void main(String[] args)
 	{
@@ -19,9 +23,10 @@ public class array_basics {
 			System.out.println("num is :" + num);
 			System.out.println("The array a contains :" + b [num-1]);
 		}
-		// Multi dimensional array -- array of arrays (maybe of diff length)
+		
+		/* Multi dimensional array -- array of arrays (maybe of diff length)*/
 
-		/** initialized and declared in same line **/
+		// initialized and declared in same line 
 		int [][] grid = 
 			{
 					{1,2},  // 0th row
@@ -31,7 +36,7 @@ public class array_basics {
 		System.out.println( "the array grid contains: "+ grid[0][1]); // 0th row, 1st col
 		System.out.println( "the array grid contains: "+ grid[1][2]); // 1st row, 2nd col
 
-		/** initialized and declared separately**/
+		// initialized and declared separately
 		String[][] list = new String[2][3];
 
 		list[1][2]= "honey";
@@ -39,7 +44,7 @@ public class array_basics {
 		System.out.println(list.length);
 		System.out.println("list [0] has" + list[0]);
 		System.out.println("looping through the multi-dimensional array: ");	
-		
+
 		//looping through the multi-dimensional array;
 		for (int r =0;r<list.length;r++)
 		{
@@ -52,12 +57,4 @@ public class array_basics {
 		}
 	}
 }
-
-
-
-
-
-
-
-
 

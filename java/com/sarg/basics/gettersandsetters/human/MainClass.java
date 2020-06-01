@@ -1,4 +1,6 @@
- class human
+package gettersandsetters.human;
+
+class SampleHuman
  {
 	
 	String name;
@@ -10,11 +12,11 @@
 	
  }
  
- public class mainClass
+ public class MainClass
  {
 	 public static void main (String[] args)
 	 {
-		 human Rachel = new human();
+		 SampleHuman Rachel = new SampleHuman();
 		 Rachel.speak();
 				 		 
 	 }

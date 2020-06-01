@@ -1,4 +1,4 @@
-package studentDbApp;
+package com.sarg.applications.student;
 import java.util.Scanner;
 
 public class StudentApp {
