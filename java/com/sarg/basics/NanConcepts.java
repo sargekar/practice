@@ -7,7 +7,7 @@
  *	4. 0/0 - arithmetic exception
  *	   0.0/0 - NaN
  *	   2.0/0.0 - infinity
- *	4. isNaN() - method which checks if number is NaN
+ *	5. isNaN() - method which checks if number is NaN
  */
 public class NanConcepts {
 
