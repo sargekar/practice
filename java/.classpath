@@ -6,5 +6,7 @@
 	<classpathentry kind="src" path="com/sarg/threads"/>
 	<classpathentry kind="src" path="com/sarg/datastructures"/>
 	<classpathentry kind="src" path="com/sarg/oops"/>
+	<classpathentry kind="src" path="com.sarg.strings"/>
+	<classpathentry kind="src" path="com.sarg.hackerrank"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
